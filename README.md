@@ -1,16 +1,16 @@
 # Awesome-Vertical-AI-ERP
 
-# Top Synthetic Data Platforms Ecosystem
+## Top Vertical AI ERP Systems Ecosystem
 
 **Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Privacy-Safe & Simulation Data for AI Training and Testing*  
+*Focused on Industry-Specific AI-Native ERP Platforms*  
 **Last updated: March 2026**
 
-This repository tracks notable **SaaS platforms** and **open-source projects** building **synthetic data generation tools**. These platforms create realistic yet privacy-safe artificial data that mirrors the statistical properties of real datasets. They are used for AI/ML model training, software testing, analytics development, and compliance (GDPR, HIPAA, etc.) without exposing sensitive personal information.
+This repository tracks notable **SaaS platforms** and **open-source projects** building **Vertical AI ERP systems** — industry-specific Enterprise Resource Planning platforms rebuilt around AI workflows. These solutions go beyond traditional ERP by embedding intelligent agents for automation, predictive analytics, anomaly detection, demand forecasting, intelligent procurement, automated compliance, and industry-specific optimizations (manufacturing, distribution, professional services, etc.).
 
-**Examples** include Gretel.ai, MOSTLY AI, K2view, Tonic.ai, Syntho, and Hazy (the category leaders). Tools listed here emphasize **high-fidelity data**, privacy guarantees (differential privacy), support for tabular, relational, time-series, and multimodal data, and scalability for enterprise use.
+**Examples** include Epicor Kinetic, Infor CloudSuite, Plex Smart Manufacturing, Dexciss ERP, Metasfresh, Rillet, Campfire, and DevRev (the category leaders). Tools listed here emphasize **agentic capabilities** (autonomous workflows, multi-step reasoning, real-time decision intelligence, and vertical-specific AI modules).
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, local execution, full customization, fine-tuning, and zero licensing costs — ideal for researchers, developers, and organizations prioritizing data sovereignty and cost control.
+**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, customization, local deployment, and integration with modern AI agents (Ollama, LangChain, etc.) — ideal for companies seeking full data control, lower costs, and deep customization.
 
 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
 
@@ -22,68 +22,71 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS Products
 
-### Core Platforms (Synthetic Data Generation)
+### Core Platforms (Vertical AI ERP)
 
-- **[Gretel.ai](https://gretel.ai/)**  
-  Leading privacy engineering platform for generating high-fidelity synthetic tabular, time-series, and unstructured data with strong differential privacy guarantees.
+- **[Epicor Kinetic](https://www.epicor.com/en-us/erp/kinetic/)**  
+  Modern cloud ERP for manufacturing and distribution with embedded AI for predictive maintenance, demand forecasting, and intelligent scheduling.
 
-- **[MOSTLY AI](https://mostly.ai/)**  
-  Enterprise-grade synthetic data platform known for high statistical fidelity and privacy-safe generation of structured and relational datasets.
+- **[Infor CloudSuite](https://www.infor.com/products/cloudsuite)**  
+  Industry-specific cloud ERP suites (manufacturing, healthcare, retail, etc.) with strong AI capabilities and vertical deep functionality.
 
-- **[K2view](https://www.k2view.com/)**  
-  Synthetic data management platform combining AI generation, intelligent masking, and data cloning for test and development environments.
+- **[Plex Smart Manufacturing](https://www.plex.com/)**  
+  Cloud-native ERP designed specifically for discrete and process manufacturing with real-time AI-driven insights and shop floor intelligence.
 
-- **[Tonic.ai](https://www.tonic.ai/)**  
-  Popular synthetic data solution focused on realistic test data generation while preserving referential integrity and statistical properties.
+- **[Dexciss ERP](https://www.dexciss.com/)**  
+  AI-powered ERP tailored for manufacturing and distribution with intelligent automation and analytics.
 
-- **[Syntho](https://www.syntho.ai/)**  
-  AI-powered synthetic data platform with strong support for complex relational data and privacy compliance.
+- **[Rillet](https://www.rillet.com/)**  
+  Modern AI-first financial and operational ERP built for high-growth companies with automated workflows.
 
-- **[Hazy](https://hazy.com/)**  
-  Synthetic data platform specializing in high-quality generation for financial services and other regulated industries.
+- **[Campfire](https://www.campfire.com/)**  
+  AI-native ERP focused on service-based and project-centric industries with intelligent resource allocation.
+
+- **[DevRev](https://www.devrev.com/)**  
+  AI-powered platform uniting CRM + ERP for tech and product-led companies with autonomous agents.
 
 ### Advanced & Specialized Platforms
 
-**Other notable mentions**: YData, MDClone (healthcare), and various cloud-native solutions from big tech providers.
+**Other notable mentions**: Microsoft Dynamics 365 (industry clouds), Oracle NetSuite with AI, SAP S/4HANA Intelligent Enterprise, and various vertical solutions for retail, healthcare, and construction.
 
 ## Open-Source GitHub Projects
 
-### Dedicated Synthetic Data Generation Projects
+### Dedicated Vertical AI ERP & AI-Enhanced ERP Projects
 
-- **[SDV (Synthetic Data Vault)](https://github.com/sdv-dev/SDV)**  
-  The most comprehensive open-source Python library for synthetic data. Supports single-table, multi-table relational, and time-series data with multiple models (Copulas, CTGAN, TVAE, etc.) and built-in evaluation metrics.
+- **[ERPNext](https://github.com/frappe/erpnext)**  
+  Most popular open-source ERP with strong manufacturing, distribution, and services modules. Highly extensible with AI integrations via Frappe Framework and custom agents.
 
-- **[mostlyai/mostlyai](https://github.com/mostly-ai/mostlyai)**  
-  Open-source Synthetic Data SDK for high-fidelity, differentially private tabular data generation. Can run fully locally with excellent statistical quality.
+- **[Odoo](https://github.com/odoo/odoo)**  
+  Full-featured open-source ERP/CRM with excellent modular architecture. Supports manufacturing, inventory, accounting, and can be enhanced with local LLMs for intelligent workflows.
 
-- **[ydataai/ydata-synthetic](https://github.com/ydataai/ydata-synthetic)**  
-  Python library focused on generating synthetic tabular and time-series data using GANs and other deep learning models.
+- **[Metasfresh](https://github.com/metasfresh/metasfresh)**  
+  Modern open-source ERP focused on high-performance distribution, manufacturing, and supply chain with strong customization capabilities.
 
-- **[synthcity](https://github.com/vanderschaarlab/synthcity)**  
-  Comprehensive library for generating and evaluating synthetic tabular data with strong focus on privacy, fairness, and data augmentation.
+- **[Tryton](https://github.com/tryton/tryton)**  
+  High-quality open-source ERP framework with modular design suitable for vertical customizations and AI extensions.
 
-- **[DataDesigner (NVIDIA NeMo)](https://github.com/NVIDIA-NeMo/DataDesigner)**  
-  Powerful tool for generating high-quality synthetic datasets from scratch or using seed data, optimized for LLM fine-tuning and AI training.
+- **[Dolibarr](https://github.com/Dolibarr/dolibarr)**  
+  Lightweight, easy-to-use open-source ERP/CRM ideal for small-to-medium businesses with modules for manufacturing and services.
 
-- **[argilla-io/synthetic-data-generator](https://github.com/argilla-io/synthetic-data-generator)**  
-  Tool for building high-quality datasets for LLM training and fine-tuning using natural language instructions.
+- **[Odoo AI Modules & Extensions](https://github.com/search?q=odoo+ai+agent)**  
+  Growing ecosystem of community modules integrating AI for forecasting, anomaly detection, and autonomous document processing.
 
-- **[meta-llama/synthetic-data-kit](https://github.com/meta-llama/synthetic-data-kit)**  
-  Official toolkit from Meta for generating high-quality synthetic datasets, including reasoning traces and QA pairs for LLM fine-tuning.
+- **[ERPNext AI Agents](https://github.com/frappe/erpnext)** (with community AI extensions)  
+  Custom agents built on top of ERPNext for predictive analytics, intelligent procurement, and automated scheduling.
 
-- **[Synner](https://github.com/huda-lab/synner)**  
-  Visual open-source tool for generating realistic synthetic data by specifying dataset properties through an intuitive interface.
+- **[Apache OFBiz](https://github.com/apache/ofbiz)**  
+  Mature open-source ERP framework with strong manufacturing and supply chain capabilities, easily extended with AI.
 
 ### Additional Strong Open-Source Options
 
-- **[Faker](https://github.com/joke2k/faker)** — Industry-standard library for generating fake data (names, addresses, etc.) in multiple languages.
-- **[DoppelGANger](https://github.com/fjxmlzn/DoppelGANger)** — GAN-based synthetic time-series data generator.
-- **[Synthea](https://github.com/synthetichealth/synthea)** — Realistic synthetic patient/medical record generator widely used in healthcare.
-- **[Mimesis](https://github.com/lk-geimfari/mimesis)** — Fast, multilingual fake data generator.
-- **Distilabel** — Framework for synthetic data and AI feedback pipelines.
-- **Copulas & CTGAN** (part of SDV ecosystem) — Specialized libraries for multivariate and conditional tabular synthesis.
+- **[Frappe Framework](https://github.com/frappe/frappe)** — Low-code platform powering ERPNext, perfect for building custom vertical AI ERPs.
+- **[Sylius](https://github.com/Sylius/Sylius)** + ERP extensions — For retail/e-commerce verticals.
+- **[GNU Health](https://github.com/gnuhealth/gnuhealth)** — Specialized open-source ERP/HIS for healthcare.
+- **[Openbravo](https://github.com/openbravo)** — Retail and point-of-sale focused ERP.
+- **Custom AI ERP Stacks**: Many teams combine **ERPNext/Odoo** with **LangGraph**, **CrewAI**, **Ollama**, and **n8n** for fully autonomous vertical workflows.
+- **Postgres + TimescaleDB + Metabase** stacks enhanced with AI agents for industry-specific analytics.
 
-**Frameworks for building custom solutions**: Combine **SDV** + **mostlyai SDK** with **LangChain/LangGraph** for agentic synthetic data pipelines, or use **Hugging Face Diffusers** for image/multimodal synthetic data.
+**Frameworks for building custom agents**: Use **Frappe/ERPNext** or **Odoo** as base + **LangGraph/CrewAI** for multi-agent intelligence + local LLMs for private, on-premise AI ERP deployments.
 
 ## How to Contribute
 
@@ -97,14 +100,13 @@ Star the repo if you find it useful!
 ## Disclaimer
 
 - This is a **community-curated** list — not exhaustive and not an endorsement.
-- Synthetic data quality should always be evaluated against your specific use case (fidelity, privacy risk, downstream model performance). Differential privacy does not guarantee absolute anonymity.
-- For regulated industries (healthcare, finance), validate compliance with relevant standards (HIPAA, GDPR, etc.).
+- ERP systems handle critical business data. Thorough testing, data migration planning, and security audits are essential before deployment.
+- AI features in ERP should be validated for accuracy in your specific industry context.
 
 ---
 
-**Made for data scientists, ML engineers, privacy officers, and software testing teams.**  
-Let's make AI development more privacy-safe, accessible, and data-abundant.
-
+**Made for manufacturers, distributors, service businesses, and technology teams.**  
+Let's make industry-specific ERP more intelligent, adaptable, and controllable.
 
 ## 📈 Star History
 
